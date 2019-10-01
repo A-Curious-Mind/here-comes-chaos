@@ -1,40 +1,92 @@
 @font-face {
-font-family: 'AR CHRISTY Regular';
-font-style: normal;
-font-weight: normal;
-src: local('AR CHRISTY Regular'), url('../fonts/archristy.woff') format('woff');
+  font-family: 'AR CHRISTY Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('AR CHRISTY Regular'), url('../fonts/archristy.woff') format('woff');
 }
 
-body{
+body {
   text-align: center;
-  background-color: #faee66;
-
-}
-
-
-
-h1{
-    font-size: 10vw;
+  background-color: #37446e;
   font-family: AR CHRISTY Regular, cursive;
-  color: #35426c;
+  color: #fffebb;
+  font-size: 1.75rem;
+  line-height: 1.5;
+  padding: 0 rem;
 }
 
-img{
+a {
+  color: inherit;
+}
+
+h1 {
+  line-height: 2.5;
+}
+
+h2 {
+  font-size: 5vw;
+  line-height: 2;
+}
+
+div {
+  line-height: 2.5
+}
+
+section {
+  width: 95%;
+  margin-bottom: 2.5vw;
+}
+
+.splash-image {
   border-radius: 5%;
-  width: 60%;
+  width: 95%;
+  margin-bottom: 2.5vw;
 }
 
-.logo-link{
-  font-size: 5rem;
-  color: #35426c;
+.row {
+  margin: auto;
 }
 
+.long{
+  font-size: 5vw;
 
+}
+/* Links */
+.logo-link {
+  font-size: 15vw;
+  color: #fffebb;
+}
 
+/* Copyright */
 /* Media Queries */
 @media screen and (min-width: 730px) {
-  section{
-    width: 50%;
+  section {
     margin: auto;
+  }
+
+  .splash-image {
+    border-radius: 50%;
+  }
+
+  h1 {
+    font-size: 5vw;
+  }
+
+  h2 {
+    font-size: 2.5vw;
+    line-height: 2.5;
+  }
+
+  div {
+    /* margin: 10vw 0; */
+  }
+
+  .logo-link {
+    font-size: 5vw;
+    color: #fffebb;
+  }
+  .long{
+    font-size: 2vw;
+
   }
 }
